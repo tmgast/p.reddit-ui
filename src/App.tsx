@@ -1,12 +1,17 @@
 import './App.css';
+import styled from 'styled-components';
+
+const AppContainer = styled.div`
+  text-align: center;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer className="App">
       <header className="App-header">
         <img src="/img/logo.svg" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -17,7 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </AppContainer>
   );
 }
 
